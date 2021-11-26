@@ -1,0 +1,15 @@
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.deps.json
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.runtimeconfig.json
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.runtimeconfig.dev.json
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.dll
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.pdb
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.csprojAssemblyReference.cache
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.AssemblyInfoInputs.cache
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.AssemblyInfo.cs
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.csproj.CoreCompileInputs.cache
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.csproj.CopyComplete
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.dll
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.pdb
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.genruntimeconfig.cache

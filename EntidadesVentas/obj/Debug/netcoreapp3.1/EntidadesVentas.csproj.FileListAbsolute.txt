@@ -1,0 +1,9 @@
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csprojAssemblyReference.cache
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
