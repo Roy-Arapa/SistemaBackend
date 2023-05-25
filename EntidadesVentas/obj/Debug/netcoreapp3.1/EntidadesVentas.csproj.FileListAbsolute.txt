@@ -7,3 +7,12 @@ D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de soft
 D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
 D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
 D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csprojAssemblyReference.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb

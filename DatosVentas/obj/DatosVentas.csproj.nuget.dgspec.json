@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\DatosVentas\\DatosVentas.csproj": {}
+    "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\DatosVentas\\DatosVentas.csproj": {}
   },
   "projects": {
-    "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\DatosVentas\\DatosVentas.csproj": {
+    "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\DatosVentas\\DatosVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\DatosVentas\\DatosVentas.csproj",
+        "projectUniqueName": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\DatosVentas\\DatosVentas.csproj",
         "projectName": "DatosVentas",
-        "projectPath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\DatosVentas\\DatosVentas.csproj",
+        "projectPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\DatosVentas\\DatosVentas.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\DatosVentas\\obj\\",
+        "outputPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\DatosVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj": {
-                "projectPath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj"
+              "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj": {
+                "projectPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj": {
+    "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectUniqueName": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj",
         "projectName": "EntidadesVentas",
-        "projectPath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\EntidadesVentas\\obj\\",
+        "outputPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/sE8+YQrhLhXjFHH2J1hleRFUgbZV5Z0mNZk/6y2yEXRvEpLsfHoOxd94HARpLb79Y0jPu38mxEV0yGaL1ShgQ==",
+  "dgSpecHash": "S8nzD7OwW1CIcoPU9pxmkcU/kj86AQgyVIJ6EJaGR9kw/GajF+hPeqatKxjbgB/n3inIYeMGUByI/nVYmjqBCQ==",
   "success": true,
-  "projectFilePath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\DatosVentas\\DatosVentas.csproj",
+  "projectFilePath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\DatosVentas\\DatosVentas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

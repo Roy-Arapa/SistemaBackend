@@ -1,5 +1,6 @@
-﻿using DatosVentas.Mapping.Almacen;
-using EntidadesVentas.Almacen;
+﻿
+using DatosVentas.Mapping.Cliente;
+using EntidadesVentas.Cliente;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ namespace DatosVentas
 {
     public class DbContextVentas : DbContext
     {
-        public DbSet<Categorías> categorias { get; set; }
+        public DbSet<DT_Cliente> cliente { get; set; }
         public DbContextVentas(DbContextOptions<DbContextVentas> options) : base(options)
         {
 
@@ -17,7 +18,7 @@ namespace DatosVentas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfiguration(new CategoriaMap());
+            modelBuilder.ApplyConfiguration(new ClienteMap());
         }
     }
 }

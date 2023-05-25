@@ -13,3 +13,18 @@ D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de soft
 D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.dll
 D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.pdb
 D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.genruntimeconfig.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.deps.json
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.runtimeconfig.json
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.runtimeconfig.dev.json
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.dll
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\DatosVentas.pdb
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.csprojAssemblyReference.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.AssemblyInfoInputs.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.AssemblyInfo.cs
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.csproj.CoreCompileInputs.cache
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.csproj.CopyComplete
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.dll
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.pdb
+D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\DatosVentas\obj\Debug\netcoreapp3.1\DatosVentas.genruntimeconfig.cache

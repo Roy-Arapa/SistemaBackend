@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1jOGy9Z9ZF3xB+Or8hCkF/EkWuUimkKEb76CznYVtZUUnu4W5Jn7ZDFEAt7nkBFPqDzSQHHnWIiCn9E0KiGRsQ==",
+  "dgSpecHash": "msG10rQcPZyZfkv9RkarGmeeMgCHtCJd+JXAFOAO1RbQTV0MULpzTSqMVjBq4zXB/T+IZrQOBzYYlzlU4dfzPA==",
   "success": true,
-  "projectFilePath": "D:\\UniversidadNacionalDelAltiplano-Puno\\Semestre IX\\Taller de desarrollo de software\\SistemaVueBackEnd\\SolutionVentas\\WebVentas\\WebVentas.csproj",
+  "projectFilePath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\WebVentas\\WebVentas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
