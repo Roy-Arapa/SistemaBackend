@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj": {}
+    "D:\\02_2023\\Mayo\\Proyectokardex\\sistemabackend\\Roy-Arapa\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {}
   },
   "projects": {
-    "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj": {
+    "D:\\02_2023\\Mayo\\Proyectokardex\\sistemabackend\\Roy-Arapa\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectUniqueName": "D:\\02_2023\\Mayo\\Proyectokardex\\sistemabackend\\Roy-Arapa\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
         "projectName": "EntidadesVentas",
-        "projectPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\EntidadesVentas.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectoKardexFrontend\\Backend\\v03\\SolutionVentas\\EntidadesVentas\\obj\\",
+        "projectPath": "D:\\02_2023\\Mayo\\Proyectokardex\\sistemabackend\\Roy-Arapa\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\02_2023\\Mayo\\Proyectokardex\\sistemabackend\\Roy-Arapa\\SistemaKardexBackend\\EntidadesVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

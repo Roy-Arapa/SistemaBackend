@@ -14,6 +14,5 @@ namespace DatosVentas.Mapping.Cliente
             builder.ToTable("DT_Cliente")
                 .HasKey(c => c.idCliente);
         }
-
     }
 }
