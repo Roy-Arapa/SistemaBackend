@@ -1,7 +1,9 @@
 ﻿
 using DatosVentas.Mapping.Cliente;
+using DatosVentas.Mapping.Producto;
 using DatosVentas.Mapping.Tipo;
 using EntidadesVentas.Cliente;
+using EntidadesVentas.Producto;
 using EntidadesVentas.Tipo;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -15,6 +17,7 @@ namespace DatosVentas
         public DbSet<DT_Cliente> cliente { get; set; }
         public DbSet<DT_TipoDocumento> tipoDocumento { get; set; }
         public DbSet<DT_TipoPersona> tipoPersona { get; set; }
+        public DbSet<DT_Producto> producto { get; set; }
         public DbContextVentas(DbContextOptions<DbContextVentas> options) : base(options)
         {
 
@@ -25,6 +28,7 @@ namespace DatosVentas
             modelBuilder.ApplyConfiguration(new ClienteMap());
             modelBuilder.ApplyConfiguration(new TipoDocumentoMap());
             modelBuilder.ApplyConfiguration(new TipoPersonaMap());
+            modelBuilder.ApplyConfiguration(new ProductoMap());
         }
     }
 }
