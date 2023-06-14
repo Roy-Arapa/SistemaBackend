@@ -10,7 +10,6 @@ namespace EntidadesVentas.Producto
         public string cProducto { get; set; }
         public string cPrecioProd { get; set; }
         public int nCantidadProd { get; set; }
-        public string cCodProducto { get; set; }
         public string cDescripcion { get; set; }
         public int idUsuReg { get; set; }
         public DateTime dFechaReg { get; set; }
