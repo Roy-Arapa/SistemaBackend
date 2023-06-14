@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
+      "projectUniqueName": "D:\\ProyectoKardex\\Backend\\v06\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
       "projectName": "EntidadesVentas",
-      "projectPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
+      "projectPath": "D:\\ProyectoKardex\\Backend\\v06\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\obj\\",
+      "outputPath": "D:\\ProyectoKardex\\Backend\\v06\\SistemaKardexBackend\\EntidadesVentas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
