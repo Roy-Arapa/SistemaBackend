@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BVR8ncHb+tOKVBx3h+EqVXieXLRfq6dyf9Zxitq9EDA7x+VmAxPG020nwzxZHD36DxetF4SX+F1tAuj2F5Z7RA==",
+  "dgSpecHash": "HaCl7of6nAD5QF1FnVC3ySGLU00VQYLmVB3Q5mjWPmguy7lwUTqiKE63Mp8bWVvv0I7e1KwDIK8gEf914IR88g==",
   "success": true,
-  "projectFilePath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj",
+  "projectFilePath": "D:\\ProyectoKardex\\Backend\\v05\\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\\DatosVentas\\DatosVentas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

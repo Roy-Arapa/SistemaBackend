@@ -33,6 +33,7 @@ namespace WebVentas.Controllers
                                    producto.cProducto,
                                    producto.cPrecioProd,
                                    producto.nCantidadProd,
+                                   producto.cCodProducto,
                                    producto.cDescripcion,
                                    producto.lVigente
                                };
@@ -44,6 +45,7 @@ namespace WebVentas.Controllers
                 cProducto = c.cProducto,
                 cPrecioProd = c.cPrecioProd,
                 nCantidadProd = c.nCantidadProd,
+                cCodProducto = c.cCodProducto,
                 cDescripcion = c.cDescripcion,
                 lVigente = c.lVigente
             });
@@ -63,6 +65,7 @@ namespace WebVentas.Controllers
                 cProducto = model.cProducto,
                 cPrecioProd = model.cPrecioProd,
                 nCantidadProd = model.nCantidadProd,
+                cCodProducto = model.cCodProducto,
                 cDescripcion = model.cDescripcion,
                 idUsuReg = 0,
                 dFechaReg = DateTime.Now,
@@ -106,6 +109,7 @@ namespace WebVentas.Controllers
             objProducto.cProducto = model.cProducto;
             objProducto.cPrecioProd = model.cPrecioProd;
             objProducto.nCantidadProd = model.nCantidadProd;
+            objProducto.cCodProducto = model.cCodProducto;
             objProducto.cDescripcion = model.cDescripcion;
             objProducto.idUsuMod = 0;
             objProducto.dFechaMod = DateTime.Now;

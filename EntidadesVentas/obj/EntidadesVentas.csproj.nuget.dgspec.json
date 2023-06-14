@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {}
+    "D:\\ProyectoKardex\\Backend\\v05\\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\\EntidadesVentas\\EntidadesVentas.csproj": {}
   },
   "projects": {
-    "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {
+    "D:\\ProyectoKardex\\Backend\\v05\\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\\EntidadesVentas\\EntidadesVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectUniqueName": "D:\\ProyectoKardex\\Backend\\v05\\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\\EntidadesVentas\\EntidadesVentas.csproj",
         "projectName": "EntidadesVentas",
-        "projectPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectPath": "D:\\ProyectoKardex\\Backend\\v05\\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\\EntidadesVentas\\EntidadesVentas.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\obj\\",
+        "outputPath": "D:\\ProyectoKardex\\Backend\\v05\\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\\EntidadesVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
