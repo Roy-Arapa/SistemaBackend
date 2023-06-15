@@ -1,39 +1,3 @@
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csprojAssemblyReference.cache
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\UniversidadNacionalDelAltiplano-Puno\Semestre IX\Taller de desarrollo de software\SistemaVueBackEnd\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csprojAssemblyReference.cache
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\ProyectoKardexFrontend\Backend\v03\SolutionVentas\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csprojAssemblyReference.cache
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\02_2023\Mayo\Proyectokardex\sistemabackend\Roy-Arapa\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csprojAssemblyReference.cache
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
-D:\ProyectoKardex\Backend\v05\SistemaKardexBackend-d756c2bc4586d6740b27c259db65f239a9b2a75e\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
 D:\Mayo\sistemakardex\backend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
 D:\Mayo\sistemakardex\backend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
 D:\Mayo\sistemakardex\backend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
