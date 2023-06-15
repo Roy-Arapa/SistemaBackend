@@ -17,7 +17,5 @@ namespace EntidadesVentas.Ventas
         public int? idUsuMod        { get; set; }
         public DateTime? dFechaMod  { get; set; }
         public bool? lVigente       { get; set; }
-        public DT_Venta venta       { get; set; }
-        //falta productos
     }
 }

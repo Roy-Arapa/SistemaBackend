@@ -198,5 +198,18 @@ namespace WebVentas.Controllers
 
             return Ok();
         }
+
+        // GET: Api/Cliente/SelectCliente
+        [HttpGet("[action]")]
+        public async Task<IEnumerable<SelectClienteVM>> SelectCliente()
+        {
+            var objClientes = await _context.cliente.ToListAsync();
+
+            return objClientes.Select(c => new SelectClienteVM
+            {
+                idCliente = c.idCliente,
+                cNombre   = c.cNombre,
+            });
+        }
     }
 }

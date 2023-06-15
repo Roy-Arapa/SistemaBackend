@@ -52,6 +52,21 @@ namespace WebVentas.Controllers
             });
         }
 
+        // GET: Api/Tipo/ListarTipoComp
+        [HttpGet("[action]")]
+        public async Task<IEnumerable<TipoComprobanteVM>> ListarTipoComp()
+        {
+            var tipoComprobante = await _context.tipoComprobante
+                .Where(t => t.lVigente == true)
+                .ToListAsync();
+
+            return tipoComprobante.Select(t => new TipoComprobanteVM
+            {
+                idTipoComprobante = t.idTipoComprobante,
+                cTipoComprobante  = t.cTipoComprobante,
+            });
+        }
+
         private bool DT_TipoDocumentoExists(int id)
         {
             return _context.tipoDocumento.Any(e => e.idTipoDocumento == id);

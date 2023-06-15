@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj": {}
+    "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\DatosVentas.csproj": {}
   },
   "projects": {
-    "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj": {
+    "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\DatosVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj",
+        "projectUniqueName": "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\DatosVentas.csproj",
         "projectName": "DatosVentas",
-        "projectPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\DatosVentas\\obj\\",
+        "projectPath": "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\DatosVentas.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {
-                "projectPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj"
+              "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj": {
+                "projectPath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj"
               }
             }
           }
@@ -65,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -74,24 +76,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {
+    "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectUniqueName": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj",
         "projectName": "EntidadesVentas",
-        "projectPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectoKardex\\Backend\\v04\\SistemaKardexBackend\\EntidadesVentas\\obj\\",
+        "projectPath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -100,6 +102,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +126,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -132,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

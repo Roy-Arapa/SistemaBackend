@@ -9,8 +9,8 @@ namespace EntidadesVentas.Ventas
         public int idVenta              { get; set; }
         public int idCliente            { get; set; }
         public int idUsuario            { get; set; }
-        public string cTipoComprobante  { get; set; }
-        public string cComprobante      { get; set; }
+        public int idTipoComprobante    { get; set; }
+        public string cSerieComprobante { get; set; }
         public string cNumComprobante   { get; set; }
         public decimal nImpuesto        { get; set; }
         public decimal nTotal           { get; set; }
@@ -20,6 +20,5 @@ namespace EntidadesVentas.Ventas
         public DateTime? dFechaMod      { get; set; }
         public bool? lVigente           { get; set; }
         public ICollection<DT_DetalleVenta> detalles { get; set; }
-        //Falta usuario y persona
     }
 }
