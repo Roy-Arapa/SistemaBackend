@@ -15,6 +15,6 @@ namespace WebVentas.Modelos.Venta
         public int? idUsuReg            { get; set; }
         public DateTime? dFechaReg      { get; set; }
         public bool? lVigente           { get; set; }
-        public ICollection<DetalleVentaVM> detalles { get; set; }
+        public List<DetalleVentaVM> detalles { get; set; }
     }
 }

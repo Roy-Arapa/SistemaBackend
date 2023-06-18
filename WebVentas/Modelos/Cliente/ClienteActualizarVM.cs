@@ -14,6 +14,7 @@ namespace WebVentas.Modelos.Cliente
         public string cDocumento        { get; set; }
         public string cNumeroTelefono   { get; set; }
         public string cCorreoCliente    { get; set; }
+        public string cDireccion        { get; set; }
         public int? idUsuMod            { get; set; }
         public DateTime? dFechaMod      { get; set; }
         public bool lVigente            { get; set; }
@@ -27,6 +28,7 @@ namespace WebVentas.Modelos.Cliente
             cDocumento      = string.Empty;
             cNumeroTelefono = string.Empty;
             cCorreoCliente  = string.Empty;
+            cDireccion      = string.Empty;
             //idUsuMod      = 0;
             //dFechaMod     = DateTime.Now;
             lVigente        = true;

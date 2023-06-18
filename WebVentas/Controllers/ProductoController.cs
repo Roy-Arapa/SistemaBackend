@@ -188,5 +188,68 @@ namespace WebVentas.Controllers
 
             return Ok();
         }
+
+        // GET: Api/Producto/BuscarCodigoVenta/5685685
+        [HttpGet("[action]/{codigo}")]
+        public async Task<IActionResult> BuscarCodigoVenta([FromRoute] string codigo)
+        {
+            var objProducto = await (from producto in _context.producto
+                                     where producto.cCodProducto == codigo && producto.lVigente == true && producto.nCantidadProd > 0
+                                     select new
+                                     {
+                                         producto.idProducto,
+                                         producto.cProducto,
+                                         producto.cPrecioProd,
+                                         producto.nCantidadProd,
+                                         producto.cCodProducto,
+                                         producto.cDescripcion,
+                                         producto.lVigente
+                                     }).FirstOrDefaultAsync();
+
+            if (objProducto == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(new ProductoListarVM
+            {
+                idProducto      = objProducto.idProducto,
+                cProducto       = objProducto.cProducto,
+                cPrecioProd     = objProducto.cPrecioProd,
+                nCantidadProd   = objProducto.nCantidadProd,
+                cCodProducto    = objProducto.cCodProducto,
+                cDescripcion    = objProducto.cDescripcion,
+                lVigente        = objProducto.lVigente
+            });
+        }
+
+        // GET: Api/Producto/ListarVenta/texto
+        [HttpGet("[action]/{texto}")]
+        public async Task<IEnumerable<ProductoListarVM>> ListarVenta([FromRoute] string texto)
+        {
+            var objProducto = await (from producto in _context.producto
+                                     where producto.cProducto == texto && producto.lVigente == true && producto.nCantidadProd > 0
+                                     select new
+                                     {
+                                         producto.idProducto,
+                                         producto.cProducto,
+                                         producto.cPrecioProd,
+                                         producto.nCantidadProd,
+                                         producto.cCodProducto,
+                                         producto.cDescripcion,
+                                         producto.lVigente
+                                     }).ToListAsync();
+
+            return objProducto.Select(p => new ProductoListarVM
+            {
+                idProducto      = p.idProducto,
+                cProducto       = p.cProducto,
+                cPrecioProd     = p.cPrecioProd,
+                nCantidadProd   = p.nCantidadProd,
+                cCodProducto    = p.cCodProducto,
+                cDescripcion    = p.cDescripcion,
+                lVigente        = p.lVigente
+            });
+        }
     }
 }

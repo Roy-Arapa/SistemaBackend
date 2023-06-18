@@ -13,6 +13,7 @@ namespace EntidadesVentas.Cliente
         public string cDocumento        { get; set; }
         public string cNumeroTelefono   { get; set; }
         public string cCorreoCliente    { get; set; }
+        public string cDireccion        { get; set; }
         public int? idUsuReg            { get; set; }
         public DateTime? dFechaReg      { get; set; }
         public int? idUsuMod            { get; set; }

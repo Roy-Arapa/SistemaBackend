@@ -8,6 +8,10 @@ namespace WebVentas.Modelos.Venta
         public int idVenta              { get; set; }
         public int idCliente            { get; set; }
         public string cNombre           { get; set; }
+        public string cDocumento        { get; set; }
+        public string cNumeroTelefono   { get; set; }
+        public string cCorreoCliente    { get; set; }
+        public string cDireccion        { get; set; }
         public int idUsuario            { get; set; }
         public string cWinUser          { get; set; }
         public int idTipoComprobante    { get; set; }

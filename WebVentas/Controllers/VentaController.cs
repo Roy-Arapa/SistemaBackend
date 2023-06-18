@@ -35,6 +35,10 @@ namespace WebVentas.Controllers
                                    venta.idVenta,
                                    venta.idCliente,
                                    cliente.cNombre,
+                                   cliente.cDocumento,
+                                   cliente.cNumeroTelefono,
+                                   cliente.cCorreoCliente,
+                                   cliente.cDireccion,
                                    venta.idUsuario,
                                    usuario.cWinUser,
                                    venta.idTipoComprobante,
@@ -53,6 +57,10 @@ namespace WebVentas.Controllers
                 idVenta             = v.idVenta,
                 idCliente           = v.idCliente,
                 cNombre             = v.cNombre,
+                cDocumento          = v.cDocumento,
+                cNumeroTelefono     = v.cNumeroTelefono,
+                cCorreoCliente      = v.cCorreoCliente,
+                cDireccion          = v.cDireccion,
                 idUsuario           = v.idUsuario,
                 cWinUser            = v.cWinUser,
                 idTipoComprobante   = v.idTipoComprobante,
@@ -119,21 +127,27 @@ namespace WebVentas.Controllers
                                where detalleVenta.idVenta == idVenta
                                select new
                                {
+                                   detalleVenta.idDetalleVenta,
+                                   detalleVenta.idVenta,
                                    detalleVenta.idProducto,
                                    producto.cProducto,
                                    detalleVenta.nCantidad,
                                    detalleVenta.nPrecio,
-                                   detalleVenta.nDescuento
+                                   detalleVenta.nDescuento,
+                                   producto.cCodProducto
                                };
 
             var objDetalleVenta = await objResultado.ToListAsync();
             return objDetalleVenta.Select(v => new DetalleVentaVM
             {
-                idProducto = v.idProducto,
-                cProducto  = v.cProducto,
-                nCantidad  = v.nCantidad,
-                nPrecio    = v.nPrecio,
-                nDescuento = v.nDescuento
+                idDetalleVenta  = v.idDetalleVenta,
+                idVenta         = v.idVenta,
+                idProducto      = v.idProducto,
+                cProducto       = v.cProducto,
+                nCantidad       = v.nCantidad,
+                nPrecio         = v.nPrecio,
+                nDescuento      = v.nDescuento,
+                cCodProducto    = v.cCodProducto
             });
         }
 
@@ -174,11 +188,14 @@ namespace WebVentas.Controllers
                         idProducto  = item.idProducto,
                         nCantidad   = item.nCantidad,
                         nPrecio     = item.nPrecio,
-                        nDescuento  = item.nDescuento
+                        nDescuento  = item.nDescuento,
+                        idUsuReg    = 0,
+                        dFechaReg   = DateTime.Now,
+                        lVigente    = true
                     };
                     _context.detalleVenta.Add(objDetalleVenta);
+                    await _context.SaveChangesAsync();
                 }
-                await _context.SaveChangesAsync();
             }
             catch (Exception ex)
             {
@@ -189,7 +206,7 @@ namespace WebVentas.Controllers
         }
 
         // PUT: Api/Venta/Anular/1
-        [HttpPost("[action]/{idVenta}")]
+        [HttpPut("[action]/{idVenta}")]
         public async Task<IActionResult> Anular([FromRoute] int idVenta)
         {
             if (idVenta <= 0)
@@ -209,17 +226,58 @@ namespace WebVentas.Controllers
             try
             {
                 await _context.SaveChangesAsync();
+                var objDetalle = await _context.detalleVenta.Where(d => d.idVenta == idVenta).ToListAsync();
+                foreach (var item in objDetalle)
+                {
+                    var objProducto             = await _context.producto.FirstOrDefaultAsync(a => a.idProducto == item.idProducto);
+                    objProducto.nCantidadProd   = objProducto.nCantidadProd + item.nCantidad;
+                    await _context.SaveChangesAsync();
+                }
             }
             catch (DbUpdateConcurrencyException)
             {
-                // Guardar Excepción
                 return BadRequest();
             }
 
             return Ok();
         }
 
+        // PUT: Api/Venta/Activar/1
+        [HttpPut("[action]/{idVenta}")]
+        public async Task<IActionResult> Activar([FromRoute] int idVenta)
+        {
+            if (idVenta <= 0)
+            {
+                return BadRequest();
+            }
 
+            var objVenta = await _context.venta.FirstOrDefaultAsync(v => v.idVenta == idVenta);
+
+            if (objVenta == null)
+            {
+                return NotFound();
+            }
+
+            objVenta.lVigente = true;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+                var objDetalle = await _context.detalleVenta.Where(d => d.idVenta == idVenta).ToListAsync();
+                foreach (var item in objDetalle)
+                {
+                    var objProducto           = await _context.producto.FirstOrDefaultAsync(a => a.idProducto == item.idProducto);
+                    objProducto.nCantidadProd = objProducto.nCantidadProd - item.nCantidad;
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return BadRequest();
+            }
+
+            return Ok();
+        }
         private bool DT_VentaExists(int id)
         {
             return _context.venta.Any(e => e.idVenta == id);

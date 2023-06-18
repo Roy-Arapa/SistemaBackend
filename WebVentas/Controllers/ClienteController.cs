@@ -40,6 +40,7 @@ namespace WebVentas.Controllers
                                 cliente.cDocumento,
                                 cliente.cNumeroTelefono,
                                 cliente.cCorreoCliente,
+                                cliente.cDireccion,
                                 cliente.lVigente
                             };
 
@@ -55,6 +56,7 @@ namespace WebVentas.Controllers
                 cDocumento      = c.cDocumento,
                 cNumeroTelefono = c.cNumeroTelefono,
                 cCorreoCliente  = c.cCorreoCliente,
+                cDireccion      = c.cDireccion,    
                 lVigente        = c.lVigente
             });
         }
@@ -76,6 +78,7 @@ namespace WebVentas.Controllers
                 cDocumento      = model.cDocumento,
                 cNumeroTelefono = model.cNumeroTelefono,
                 cCorreoCliente  = model.cCorreoCliente.ToLower(),
+                cDireccion      = model.cDireccion,
                 idUsuReg        = 0,
                 dFechaReg       = DateTime.Now,
                 lVigente        = true
@@ -121,6 +124,7 @@ namespace WebVentas.Controllers
             objCliente.cDocumento       = model.cDocumento;
             objCliente.cNumeroTelefono  = model.cNumeroTelefono;
             objCliente.cCorreoCliente   = model.cCorreoCliente;
+            objCliente.cDireccion       = model.cDireccion;
             objCliente.idUsuMod         = 0;
             objCliente.dFechaMod        = DateTime.Now;
             objCliente.lVigente         = model.lVigente;
@@ -146,14 +150,14 @@ namespace WebVentas.Controllers
                 return BadRequest();
             }
 
-            var articulo = await _context.cliente.FirstOrDefaultAsync(a => a.idCliente == idCliente);
+            var objCliente = await _context.cliente.FirstOrDefaultAsync(a => a.idCliente == idCliente);
 
-            if (articulo == null)
+            if (objCliente == null)
             {
                 return NotFound();
             }
 
-            articulo.lVigente = true;
+            objCliente.lVigente = true;
 
             try
             {
@@ -177,14 +181,14 @@ namespace WebVentas.Controllers
                 return BadRequest();
             }
 
-            var articulo = await _context.cliente.FirstOrDefaultAsync(a => a.idCliente == idCliente);
+            var objCliente = await _context.cliente.FirstOrDefaultAsync(a => a.idCliente == idCliente);
 
-            if (articulo == null)
+            if (objCliente == null)
             {
                 return NotFound();
             }
 
-            articulo.lVigente = false;
+            objCliente.lVigente = false;
 
             try
             {

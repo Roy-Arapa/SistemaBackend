@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace EntidadesVentas.Ventas
@@ -19,6 +20,5 @@ namespace EntidadesVentas.Ventas
         public int? idUsuMod            { get; set; }
         public DateTime? dFechaMod      { get; set; }
         public bool? lVigente           { get; set; }
-        public ICollection<DT_DetalleVenta> detalles { get; set; }
     }
 }

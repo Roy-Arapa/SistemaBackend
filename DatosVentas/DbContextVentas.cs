@@ -29,7 +29,6 @@ namespace DatosVentas
         public DbSet<DT_DetalleVenta> detalleVenta { get; set; }
         public DbSet<DT_Usuario> usuario { get; set; }
         public DbSet<DT_TipoComprobante> tipoComprobante { get; set; }
-
         public DbContextVentas(DbContextOptions<DbContextVentas> options) : base(options)
         {
 
