@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N/46Bnxp8ESmeqS2IwSihgGt65MFWaHC4/xlnvlrJ/wpEPp0mMOpFScdPH0Ptug2g0Qullki6kfbozzAKcML4Q==",
+  "dgSpecHash": "tX6+C8G164kFWahQCMnalPrLkMDiWSYa9cS35ASUZZmjvgqjRgGVE541d4pYJ2ZPO01nOzUtvBM7YgN79RP63Q==",
   "success": true,
-  "projectFilePath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj",
+  "projectFilePath": "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

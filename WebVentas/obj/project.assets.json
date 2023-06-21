@@ -9262,11 +9262,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mayo\\sistemakardex\\backend\\WebVentas\\WebVentas.csproj",
+      "projectUniqueName": "D:\\bakend\\SistemaKardexBackend\\WebVentas\\WebVentas.csproj",
       "projectName": "WebVentas",
-      "projectPath": "D:\\Mayo\\sistemakardex\\backend\\WebVentas\\WebVentas.csproj",
+      "projectPath": "D:\\bakend\\SistemaKardexBackend\\WebVentas\\WebVentas.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\Mayo\\sistemakardex\\backend\\WebVentas\\obj\\",
+      "outputPath": "D:\\bakend\\SistemaKardexBackend\\WebVentas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9289,11 +9289,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\DatosVentas.csproj": {
-              "projectPath": "D:\\Mayo\\sistemakardex\\backend\\DatosVentas\\DatosVentas.csproj"
+            "D:\\bakend\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj": {
+              "projectPath": "D:\\bakend\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj"
             },
-            "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj": {
-              "projectPath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj"
+            "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {
+              "projectPath": "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj"
             }
           }
         }

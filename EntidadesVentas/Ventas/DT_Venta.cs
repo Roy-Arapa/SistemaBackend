@@ -15,6 +15,7 @@ namespace EntidadesVentas.Ventas
         public string cNumComprobante   { get; set; }
         public decimal nImpuesto        { get; set; }
         public decimal nTotal           { get; set; }
+        public DateTime dFecha          {get; set; }
         public int? idUsuReg            { get; set; }
         public DateTime? dFechaReg      { get; set; }
         public int? idUsuMod            { get; set; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj": {}
+    "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {}
   },
   "projects": {
-    "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj": {
+    "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectUniqueName": "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
         "projectName": "EntidadesVentas",
-        "projectPath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\EntidadesVentas.csproj",
+        "projectPath": "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\EntidadesVentas.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Mayo\\sistemakardex\\backend\\EntidadesVentas\\obj\\",
+        "outputPath": "D:\\bakend\\SistemaKardexBackend\\EntidadesVentas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

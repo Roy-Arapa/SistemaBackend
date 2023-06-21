@@ -8,3 +8,13 @@ D:\Mayo\sistemakardex\backend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesV
 D:\Mayo\sistemakardex\backend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
 D:\Mayo\sistemakardex\backend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
 D:\Mayo\sistemakardex\backend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\bakend\SistemaKardexBackend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.deps.json
+D:\bakend\SistemaKardexBackend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\bakend\SistemaKardexBackend\EntidadesVentas\bin\Debug\netcoreapp3.1\EntidadesVentas.pdb
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.AssemblyReference.cache
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.GeneratedMSBuildEditorConfig.editorconfig
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfoInputs.cache
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.AssemblyInfo.cs
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.csproj.CoreCompileInputs.cache
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.dll
+D:\bakend\SistemaKardexBackend\EntidadesVentas\obj\Debug\netcoreapp3.1\EntidadesVentas.pdb

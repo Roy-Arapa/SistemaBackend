@@ -169,6 +169,7 @@ namespace WebVentas.Controllers
                 cNumComprobante     = model.cNumComprobante,
                 nImpuesto           = model.nImpuesto,
                 nTotal              = model.nTotal,
+                dFecha              = DateTime.Now,
                 idUsuReg            = 0,
                 dFechaReg           = DateTime.Now,
                 lVigente            = true
@@ -277,6 +278,59 @@ namespace WebVentas.Controllers
             }
 
             return Ok();
+        }
+
+        // GET: Api/Venta/ConsultaFecha/dFechaIncio/dFechaFin
+        [HttpGet("[action]/{dFechaInicio}/{dFechaFin}")]
+        public async Task<IEnumerable<VentaVM>> ConsultaFecha([FromRoute] DateTime dFechaInicio, DateTime dFechaFin)
+        {
+            var objResultado = from venta in _context.venta
+                               join cliente in _context.cliente on venta.idCliente equals cliente.idCliente
+                               join usuario in _context.usuario on venta.idUsuario equals usuario.idUsuario
+                               join TipoComprobante in _context.tipoComprobante on venta.idTipoComprobante equals TipoComprobante.idTipoComprobante
+                               where(venta.dFecha >= dFechaInicio && venta.dFecha <= dFechaFin)
+                               select new
+                               {
+                                   venta.idVenta,
+                                   venta.idCliente,
+                                   cliente.cNombre,
+                                   cliente.cDocumento,
+                                   cliente.cNumeroTelefono,
+                                   cliente.cCorreoCliente,
+                                   cliente.cDireccion,
+                                   venta.idUsuario,
+                                   usuario.cWinUser,
+                                   venta.idTipoComprobante,
+                                   TipoComprobante.cTipoComprobante,
+                                   venta.cSerieComprobante,
+                                   venta.cNumComprobante,
+                                   venta.nImpuesto,
+                                   venta.nTotal,
+                                   venta.dFechaReg,
+                                   venta.lVigente
+                               };
+
+            var objventa = await objResultado.ToListAsync();
+            return objventa.Select(v => new VentaVM
+            {
+                idVenta             = v.idVenta,
+                idCliente           = v.idCliente,
+                cNombre             = v.cNombre,
+                cDocumento          = v.cDocumento,
+                cNumeroTelefono     = v.cNumeroTelefono,
+                cCorreoCliente      = v.cCorreoCliente,
+                cDireccion          = v.cDireccion,
+                idUsuario           = v.idUsuario,
+                cWinUser            = v.cWinUser,
+                idTipoComprobante   = v.idTipoComprobante,
+                cTipoComprobante    = v.cTipoComprobante,
+                cSerieComprobante   = v.cSerieComprobante,
+                cNumComprobante     = v.cNumComprobante,
+                nImpuesto           = v.nImpuesto,
+                nTotal              = v.nTotal,
+                dFechaReg           = v.dFechaReg,
+                lVigente            = v.lVigente
+            });
         }
         private bool DT_VentaExists(int id)
         {
