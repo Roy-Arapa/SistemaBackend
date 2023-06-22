@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SerQxRr1W82fa5/l19799oEw3HqAASZwbUD2xrCF7Lx39z40oOi/fWv6//Kjc1HJ/2g2+jQp2FPNuiHvOAQLJw==",
+  "dgSpecHash": "ogNLfz8duB5otwa1fnIwcbjQxyaaYDH//U8CDR/pZvrACxVrXpLdbdSayCQBW3GWgvG0dHe7DK0z4dB34+2elw==",
   "success": true,
-  "projectFilePath": "D:\\bakend\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj",
+  "projectFilePath": "D:\\Mayo\\sistemakardex\\backend\\SistemaKardexBackend\\DatosVentas\\DatosVentas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

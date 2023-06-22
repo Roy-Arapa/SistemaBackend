@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using DatosVentas;
 using EntidadesVentas.Ventas;
 using WebVentas.Modelos.Venta;
+using WebVentas.Modelos.Cliente;
+using WebVentas.Modelos.Tipo;
 
 namespace WebVentas.Controllers
 {
@@ -330,6 +332,24 @@ namespace WebVentas.Controllers
                 nTotal              = v.nTotal,
                 dFechaReg           = v.dFechaReg,
                 lVigente            = v.lVigente
+            });
+        }
+
+        // GET: Api/Venta/ConsultaVentas
+        [HttpGet("[action]")]
+        public async Task<IEnumerable<ConsultaVM>> ConsultaVentas()
+        {
+            var objResultado = await _context.venta
+                .GroupBy(v => v.dFecha.Month)
+                .Select(x => new { cEtiqueta = x.Key, nValor = x.Sum(v => v.nTotal) })
+                .OrderByDescending(x => x.cEtiqueta)
+                .Take(12)
+                .ToListAsync();
+
+            return objResultado.Select(v => new ConsultaVM
+            {
+                cEtiqueta   = v.cEtiqueta.ToString(),
+                nValor      = v.nValor
             });
         }
         private bool DT_VentaExists(int id)
